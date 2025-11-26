@@ -14,7 +14,15 @@ header {
     font-weight: bold;
     font-size: 1.8rem;
 }
-
+img{
+    border:5px solid #FFCC00;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto 0 auto;
+    margin-bottom: 10px;
+    
+    
+}
 /* ---------- CONTAINER PRINCIPAL ---------- */
 .pagina-container {
     display: flex;
@@ -82,9 +90,11 @@ header {
 }
 
 .botao-voltar:hover {
-    background-color: #FFCC00;
+    background-color:#FFCC00;
     color: #000;
     overflow-y: auto;
+    transition: 2s;
+    
 }
 
 /* ---------- RODAPÉ ---------- */
